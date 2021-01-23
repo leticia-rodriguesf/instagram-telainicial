@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img{
+    height: 45rem;
+}
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 30rem;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    width: 100%; /*Largura*/
+    padding: 1.3ren 0;
+    margin-bottom: 10px; /*Isso aqui separa os grupos */
+    text-align: center;
+}
+
+
+.instagram-logo{
+    width: 50%;
+    height: 6rem;
+    margin: 3px;
+}
+
+.group:nth-child(1){ /*Seletor do CSS que pega os filhos de algum elemento*/
+    min-height: 19ren;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo img{
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.instagram-login{
+    background-color: #0095f6;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 6px;
+    border-left: 10%;
+    font-size: 20px;
+}
+
+.instagram-logout{
+    margin-top: 1ren;
+    margin: 10px;
+    color: #0095f6;
+}
+
+.not-account{
+    color: rgb(160, 160, 160);
+    margin: 10px;
+}
+
+.link-blue{
+    color: #0095f6;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    font-size: 16px;
+  }
+  
+ .app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('./img/appstore.png');
+  }
+  
+  .app-download:nth-child(2) {
+    background-image: url('./img/google-play.png');
+  }
+
+  /*Resposividade*/
+
+  @media(max-width: 1024px) {
+      .instagram-wrapper{
+          width: 90%;
+      }
+  }
+
+  @media(max-width: 650px){
+    body{
+        background-color: white;
+    }
+    .instagram-wrapper{
+         width: 90%;
+    }
+    
+    .instagram-phone{
+        display: none;
+    }
+    
+    .instagram-continue{
+        width: 100%;
+    }
+
+    .group{
+        border: 1px solid transparent;
+    }
+  }
