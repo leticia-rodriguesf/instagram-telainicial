@@ -8,4 +8,4 @@ Projeto desenvolvido durante o curso "_Recriando a tela inicial do Instagram" no
 * Css Flexbox
 
 ## Preview do projeto desenvolvido: 
-![Imagem do projeto](https://github.com/leticia-rodriguesf/instagram-telaInicial/img/foto.png)
+![Imagem do projeto](https://github.com/leticia-rodriguesf/instagram-telaInicial/blob/master/img/foto.png)
