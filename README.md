@@ -1,7 +1,7 @@
 # :rocket: Recriando a tela inicial do Instagram :rocket:	
 
 ## Sobre :speech_balloon: : 
-Projeto desenvolvido durante o curso "_Recriando a tela inicial do Instagram" no **Bootcamp HTML WEB Developer**
+Projeto desenvolvido durante o curso "_Recriando a tela inicial do Instagram_" no **Bootcamp HTML WEB Developer**
 
 ## Assuntos Abordados: 
 * Responsividade
